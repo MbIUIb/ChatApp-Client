@@ -1,0 +1,42 @@
+.anchor-pane {
+    -fx-background-color: #1f1f1f; // 0 Main background
+}
+
+.pane {
+    -fx-background-radius: 15;
+    -fx-background-color: #343434; // 1 Side background
+}
+
+.label {
+    -fx-text-fill: #19d66b; // 4 Titles
+}
+
+.button {
+    -fx-background-color: #21b36c; // 2 Buttons
+    -fx-text-fill: #c9c9c9; // 5 Button text
+}
+
+.text-field {
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-border-insets: -1;
+    -fx-background-radius: 5;
+    -fx-background-color: #222222; // 3 Fields
+    -fx-border-color: #21b36c; // 6 Fields borders
+    -fx-text-inner-color: #19d66b; // 7 Fields text
+}
+
+.hyper-link {
+    -fx-text-fill: #22856d; // 8 Hyperlinks
+}
+
+.exception-label {
+    -fx-text-fill: #ff0000;
+    -fx-background-radius: 25;
+    -fx-border-color: red;
+    -fx-border-radius: 25;
+    -fx-border-insets: -1;
+    -fx-background-color: #1f1f1f; // 0 Main background
+    -fx-pref-height: 50;
+    -fx-pref-width: 200;
+}

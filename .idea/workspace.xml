@@ -4,20 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5a5097-b45a-48c3-afee-cd5511f54467" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="4e5a5097-b45a-48c3-afee-cd5511f54467" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ChangeWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/EmailConfirmationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ExceptionBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ForgotYourPasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/NewPasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/PGP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/SignInController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/TextFieldLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat_boosty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat_dark_DS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat_dark_TG.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat_dark_VK.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat_dark_trovo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat_darwin_TV.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat_light_TG.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Chat_light_VK.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/E-mail_confirmation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Forgot_your_password.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/New_password.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Registration_boosty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Registration_dark_DS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Registration_dark_TG.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Registration_dark_VK.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Registration_dark_trovo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Registration_darwin_TV.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Registration_light_TG.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Registration_light_VK.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Sign_in.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/Sign_up.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/HelloController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ST/JavaLibs/pgplib/Library/pgplib-3.2.3.jar",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ST\5_S\JavaLocalChat\src\main\java\chat\local\javalocalchat" />
+      <recent name="D:\ST\5_S\JavaLocalChat\src\main\resources\chat\local\javalocalchat" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.local.javalocalchat.Application" />
+      <module name="JavaLocalChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.local.javalocalchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -28,6 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694523699441</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1694523827766</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694523827767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -40,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

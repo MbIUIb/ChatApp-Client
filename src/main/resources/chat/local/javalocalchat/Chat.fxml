@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0"
+            prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/18.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="chat.local.javalocalchat.ChatController"
+            styleClass="anchor-pane"
+>
+
+      <TextField fx:id="messageField"
+                 layoutX="50.0"
+                 layoutY="350.0"
+                 prefHeight="30.0"
+                 prefWidth="360.0"
+      />
+
+      <Button fx:id="sendMessageButton"
+              layoutX="420.0"
+              layoutY="350.0"
+              mnemonicParsing="false"
+              prefHeight="30.0"
+              prefWidth="60.0"
+              text="Send"
+              styleClass="send-button"
+      />
+
+      <Button layoutX="490.0"
+              layoutY="350.0"
+              mnemonicParsing="false"
+              prefHeight="30.0"
+              prefWidth="60.0"
+              text="File"
+              styleClass="send-button"
+      />
+
+      <ScrollPane fx:id="scrollPane"
+                  fitToWidth="true"
+                  layoutX="50.0"
+                  layoutY="30.0"
+                  prefHeight="300.0"
+                  prefWidth="500.0"
+                  styleClass="scroll-pane"
+      >
+            <VBox fx:id="vBoxWithMessages"
+                  prefHeight="230.0"
+                  prefWidth="480.0"
+                  styleClass="vBoxWithMessages"
+            />
+      </ScrollPane>
+
+      <Pane fx:id="menuTrigger"
+            layoutX="2.0"
+            layoutY="2.0"
+            prefHeight="40.0"
+            prefWidth="40.0"
+            styleClass="menu-trigger"
+      />
+
+      <VBox fx:id="vBoxMenu"
+            prefHeight="400.0"
+            prefWidth="150.0"
+            styleClass="vBoxMenu"
+      >
+            <Button fx:id="exitButton"
+                    mnemonicParsing="false"
+                    text="Exit"
+                    prefHeight="23.0"
+                    prefWidth="40.0"
+                    styleClass="menu-button"
+            >
+               <VBox.margin>
+                  <Insets bottom="10.0"
+                          left="5.0"
+                          right="10.0"
+                          top="10.0"
+                  />
+               </VBox.margin>
+            </Button>
+
+            <RadioButton fx:id="radioButton1"
+                         mnemonicParsing="false"
+                         text="Dark DS"
+                         styleClass="radio-button"
+            >
+               <VBox.margin>
+                  <Insets left="5.0"
+                          top="6.0"
+                  />
+               </VBox.margin>
+            </RadioButton>
+
+            <RadioButton fx:id="radioButton2"
+                         mnemonicParsing="false"
+                         text="Light VK"
+                         styleClass="radio-button"
+            >
+               <VBox.margin>
+                  <Insets left="5.0"
+                          top="6.0"
+                  />
+               </VBox.margin>
+            </RadioButton>
+
+            <RadioButton fx:id="radioButton3"
+                         mnemonicParsing="false"
+                         text="Dark VK"
+                         styleClass="radio-button"
+            >
+               <VBox.margin>
+                  <Insets left="5.0"
+                          top="6.0"
+                  />
+               </VBox.margin>
+            </RadioButton>
+
+            <RadioButton fx:id="radioButton4"
+                         mnemonicParsing="false"
+                         text="Light TG"
+                         styleClass="radio-button"
+            >
+               <VBox.margin>
+                  <Insets left="5.0"
+                          top="6.0"
+                  />
+               </VBox.margin>
+            </RadioButton>
+
+            <RadioButton fx:id="radioButton5"
+                         mnemonicParsing="false"
+                         text="Dark TG"
+                         styleClass="radio-button"
+            >
+               <VBox.margin>
+                  <Insets left="5.0"
+                          top="6.0"
+                  />
+               </VBox.margin>
+            </RadioButton>
+
+            <RadioButton fx:id="radioButton6"
+                         mnemonicParsing="false"
+                         text="Dark Trovo"
+                         styleClass="radio-button"
+            >
+               <VBox.margin>
+                  <Insets left="5.0"
+                          top="6.0"
+                  />
+               </VBox.margin>
+            </RadioButton>
+
+            <RadioButton fx:id="radioButton7"
+                         mnemonicParsing="false"
+                         text="Boosty"
+                         styleClass="radio-button"
+            >
+               <VBox.margin>
+                  <Insets left="5.0"
+                          top="6.0"
+                  />
+               </VBox.margin>
+            </RadioButton>
+
+            <RadioButton fx:id="radioButton8"
+                         mnemonicParsing="false"
+                         text="Darwin TV"
+                         styleClass="radio-button"
+            >
+               <VBox.margin>
+                  <Insets left="5.0"
+                          top="6.0"
+                  />
+               </VBox.margin>
+            </RadioButton>
+
+            <Button fx:id="applyThemeButton"
+                    mnemonicParsing="false"
+                    text=" Applay theme"
+                    prefHeight="23.0"
+                    prefWidth="90.0"
+                    styleClass="menu-button"
+            >
+               <VBox.margin>
+                  <Insets left="28.0"
+                          top="10.0"
+                  />
+               </VBox.margin>
+            </Button>
+         </VBox>
+</AnchorPane>

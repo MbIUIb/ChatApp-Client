@@ -1,0 +1,115 @@
+.anchor-pane {
+    -fx-background-color: #2f3136; // 9 Main background
+}
+
+.send-button {
+    -fx-background-color: #5a6ac2; // 17 Send buttons
+    -fx-text-fill: #d2d2d2; // 18 Send buttons text
+}
+
+.menu-button {
+    -fx-background-color: #5a6ac2; // 19 Menu buttons
+    -fx-text-fill: #d2d2d2; // 20 Menu buttons text
+}
+
+.text-field {
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-border-insets: -1;
+    -fx-background-radius: 5;
+    -fx-background-color: #202225; // 14 Field
+    -fx-border-color: #5a6ac2; // 15 Field borders
+    -fx-text-inner-color: #ffffff; // 16 Field text
+}
+
+.scroll-pane {
+    -fx-background: #36393f; // 10 Scroll pane
+    -fx-background-color: #5a6ac2; // 28 Scroll pane boarder
+}
+
+.vBoxWithMessages {
+    -fx-background-color: #36393f; // 11 VBox with messages
+}
+
+.vBoxMenu {
+    -fx-background-color: #2f3136; // 12 Menu background
+}
+
+.menu-trigger {
+    -fx-background-color: #5a6ac2; // 13 Menu trigger
+}
+
+.radio-button {
+    -fx-text-fill: #d2d2d2; // 22 Radio buttons text
+    -fx-font-size: 13;
+}
+
+.radio-button .radio {
+    -fx-border-insets: -1px;
+    -fx-border-color: #5a6ac2; //border of circle
+    -fx-background-color: #fafafa; // 21 Radio buttons
+    -fx-border-radius: 15px;
+    -fx-padding: 3px;
+}
+
+.radio-button .dot {
+    -fx-background-radius: 15px;
+    -fx-padding: 8px;
+}
+
+.your-message-vbox {
+    -fx-background-radius: 15;
+    -fx-background-color: #5a6ac2; // 23 Your message
+}
+
+.your-message-text-flow > Text{
+    -fx-fill: #d2d2d2; // 25 Message text
+}
+
+.your-message-text-flow {
+    -fx-font-size: 14;
+    -fx-padding: 3 5 0 10;
+}
+
+.your-date-and-time {
+    -fx-font-size: 9;
+    -fx-text-fill: #000000; // 32 Your date and time
+    -fx-padding: -2 7 1 7;
+}
+
+.other-message-vbox {
+    -fx-background-radius: 15;
+    -fx-background-color: #2f3136; // 24 Other messages
+}
+
+.user-name {
+    -fx-font-size: 12;
+    -fx-text-fill: #d2d2d2; // 31 Other username
+    -fx-padding: 1 7 -4 7;
+}
+
+.in-message-text-flow > Text{
+    -fx-fill: #5a6ac2; // 29 Other message text
+}
+
+.in-message-text-flow {
+    -fx-font-size: 14;
+    -fx-padding: 0 5 0 10;
+}
+
+.other-date-and-time {
+    -fx-font-size: 9;
+    -fx-text-fill: #dddddd; // 33 Other date and time
+    -fx-padding: -2 7 1 7;
+}
+
+.exception-label {
+    -fx-text-fill: #ff0000;
+    -fx-background-radius: 25;
+    -fx-border-color: red;
+    -fx-border-radius: 25;
+    -fx-border-insets: -1;
+    -fx-background-color: #2f3136; // 9 Main background
+    -fx-pref-height: 50;
+    -fx-pref-width: 200;
+}

@@ -1,0 +1,42 @@
+.anchor-pane {
+    -fx-background-color: #3a3f55; // 0 Main background
+}
+
+.pane {
+    -fx-background-radius: 15;
+    -fx-background-color: #e4fdff; // 1 Side background
+}
+
+.label {
+    -fx-text-fill: linear-gradient(to bottom, #b84504, #f9fa56); // 4 Titles
+}
+
+.button {
+    -fx-background-color: linear-gradient(to right, #ef7550, #fda76a); // 2 Buttons
+    -fx-text-fill: #3d423d; // 5 Button text
+}
+
+.text-field {
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-border-insets: -1;
+    -fx-background-radius: 5;
+    -fx-background-color: linear-gradient(to bottom right, #a9c9ba, #B5D4C3); // 3 Fields
+    -fx-border-color: #bbbbbb; // 6 Fields borders
+    -fx-text-inner-color: #000000; // 7 Fields text
+}
+
+.hyper-link {
+    -fx-text-fill: #00b4d8; // 8 Hyperlinks
+}
+
+.exception-label {
+    -fx-text-fill: #ff0000;
+    -fx-background-radius: 25;
+    -fx-border-color: red;
+    -fx-border-radius: 25;
+    -fx-border-insets: -1;
+    -fx-background-color: #3a3f55; // 0 Main background
+    -fx-pref-height: 50;
+    -fx-pref-width: 200;
+}
