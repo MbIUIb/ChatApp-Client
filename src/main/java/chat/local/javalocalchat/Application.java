@@ -8,7 +8,15 @@ import java.io.IOException;
 
 import static chat.local.javalocalchat.ChangeWindow.styleName;
 
+/**Launch application class
+ * @author Infobezdar'
+ * @version 1.0
+ */
 public class Application extends javafx.application.Application {
+    /**
+     * Procedure displaying the first window
+     * @param stage - the firs stage
+     */
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("Sign_in.fxml"));
@@ -21,6 +29,9 @@ public class Application extends javafx.application.Application {
         stage.show();
     }
 
+    /**
+     * Procedure launch application
+     */
     public static void main(String[] args) {
         launch();
     }
