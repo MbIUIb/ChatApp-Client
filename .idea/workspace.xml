@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5a5097-b45a-48c3-afee-cd5511f54467" name="Changes" comment="ExceptionBox comments">
+    <list default="true" id="4e5a5097-b45a-48c3-afee-cd5511f54467" name="Changes" comment="ForgotYourPasswordController comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ForgotYourPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ForgotYourPasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/NewPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/NewPasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/New_password.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/New_password.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694717023529</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ForgotYourPasswordController comments">
+      <created>1694718749676</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694718749676</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +152,7 @@
     <MESSAGE value="EmailConfirmationController comments" />
     <MESSAGE value="ChangeWindow comments" />
     <MESSAGE value="ExceptionBox comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExceptionBox comments" />
+    <MESSAGE value="ForgotYourPasswordController comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="ForgotYourPasswordController comments" />
   </component>
 </project>
