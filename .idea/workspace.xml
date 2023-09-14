@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5a5097-b45a-48c3-afee-cd5511f54467" name="Changes" comment="EmailConfirmationController comments">
+    <list default="true" id="4e5a5097-b45a-48c3-afee-cd5511f54467" name="Changes" comment="ChangeWindow comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ChangeWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ChangeWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/E-mail_confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chat/local/javalocalchat/E-mail_confirmation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ExceptionBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/ExceptionBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694709540950</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ChangeWindow comments">
+      <created>1694716244182</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694716244182</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +135,7 @@
     <MESSAGE value="Application comments" />
     <MESSAGE value="TextFieldLimiter comments" />
     <MESSAGE value="EmailConfirmationController comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="EmailConfirmationController comments" />
+    <MESSAGE value="ChangeWindow comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChangeWindow comments" />
   </component>
 </project>
