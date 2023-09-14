@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e5a5097-b45a-48c3-afee-cd5511f54467" name="Changes" comment="NewPasswordController comments">
+    <list default="true" id="4e5a5097-b45a-48c3-afee-cd5511f54467" name="Changes" comment="SignInController comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/SignInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/SignInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/local/javalocalchat/SignUpController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694719633933</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="SignInController comments">
+      <created>1694720559839</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694720559839</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +167,7 @@
     <MESSAGE value="ExceptionBox comments" />
     <MESSAGE value="ForgotYourPasswordController comments" />
     <MESSAGE value="NewPasswordController comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="NewPasswordController comments" />
+    <MESSAGE value="SignInController comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="SignInController comments" />
   </component>
 </project>
