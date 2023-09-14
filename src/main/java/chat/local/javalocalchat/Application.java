@@ -8,7 +8,8 @@ import java.io.IOException;
 
 import static chat.local.javalocalchat.ChangeWindow.styleName;
 
-/**Launch application class
+/**
+ * Launch application class
  * @author Infobezdar'
  * @version 1.0
  */
