@@ -212,7 +212,7 @@ public class ChatController implements Initializable {
                 SimpleDateFormat formatForDate = new SimpleDateFormat("dd.MM.yy H:mm");
                 String[] message = {formatForDate.format(date), "", outMessage};
                 displayYourMessage(message, vBoxWithMessages);
-                Client.sendMessage(outMessage);
+                Client.sendMessage("answer_check|" + outMessage);
             }
         });
     }

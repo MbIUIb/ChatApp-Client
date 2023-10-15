@@ -77,9 +77,11 @@ public class Client {
 
                         messageFromServer = pgp.decryptString((String) objectInputStream.readObject(), username);
                         String[] messageFromServerList = messageFromServer.split("\\|", 3);
-                        if (messageFromServerList[1].equals(getUsername())) {
+                        if (messageFromServerList[0].equals("successful_answer_check") && messageFromServerList[1].equals(getUsername())){
                             ChatController.displayYourMessage(messageFromServerList, vBox);
-                        }else {
+                        } else if (messageFromServerList[1].equals(getUsername())) {
+                            ChatController.displayYourMessage(messageFromServerList, vBox);
+                        } else {
                             ChatController.displayOtherMessage(messageFromServerList, vBox);
                         }
                     } catch (IOException | ClassNotFoundException e) {
